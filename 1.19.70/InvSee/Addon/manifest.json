@@ -1,0 +1,45 @@
+{
+    "format_version": 2,
+    "header": {
+		"name": "§l§9Inv See §fAddon§r",
+		"description": "§fDon't Forgot to Thank InwAitJi§r",
+        "uuid": "87f65c7d-f9ad-498c-b7e6-0390330e042c",
+        "version": [
+            0,
+            1,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            19,
+            50
+        ]
+    },
+    "modules": [
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "c2cf2798-4e80-41c6-8dae-a365d7936f12",
+            "entry": "scripts/Main.js",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.1.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-gametest",
+            "version": "1.0.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.0.0-beta"
+        }
+    ]
+}
