@@ -1,5 +1,5 @@
 # Minecraft Bedrock GameTestAPI
-Welcome to the Minecraft Bedrock GameTestAPI! This addon (script) was created with love by me and is available for you to download and use. Here's everything you need to know:
+Welcome to the Minecraft Bedrock GameTestAPI! This addon (script) was created with love(UwU) by me and is available for you to download and use. Here's everything you need to know:
 
 ## What you can do with this addon [+]
 - Learn Javascript and see how it can be used in Minecraft
