@@ -19,6 +19,6 @@ Welcome to the Minecraft Bedrock GameTestAPI! This addon (script) was created wi
 - Discord: ! AitJi Gamer !#4753
 
 ## How to download the addon
-Don't worry, it's easy! Just check out my video tutorial on YouTube [HERE](https://youtu.be/sgFoySz1c08) It'll guide you through the entire process step by step.
+Don't worry, it's easy! Just check out my video tutorial on YouTube [HERE](https://youtu.be/sgFoySz1c08) or "https://youtu.be/sgFoySz1c08" It'll guide you through the entire process step by step.
 
 Thank you for downloading my addon and I hope you enjoy using it! If you have any questions or feedback, feel free to reach out to me on any of my social media platforms.
