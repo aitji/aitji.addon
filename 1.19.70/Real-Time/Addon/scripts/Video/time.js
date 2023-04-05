@@ -25,7 +25,7 @@ world.events.beforeItemUse.subscribe(data => {
     const pl = data.source
     const item = data.item
 
-    if (item.typeId === "minecraft:clock") {
+    if (item.typeId === "minecraft:clock" && pl.hasTag("Admin")) {
         timeSetting(pl)
     }
 })
