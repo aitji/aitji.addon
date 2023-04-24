@@ -1,5 +1,5 @@
 import { world } from "@minecraft/server"
-import { ActionFormData } from "@minecraft/server-ui";
+import { ActionFormData, ModalFormData } from "@minecraft/server-ui";
 import "./lang/ENG"
 import "./lang/TH"
 /** ---------------------------- */

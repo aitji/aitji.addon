@@ -1,5 +1,5 @@
-import { Scoreboard, world } from "mojang-minecraft";
-import { ActionFormData, ModalFormData } from "mojang-minecraft-ui";
+import { world } from "@minecraft/server"
+import { ActionFormData, ModalFormData } from "@minecraft/server-ui";
 /** ------------------- */
 /** Settings Here */
 let money_scoreboard = "money"; /** Name of Scorebaord Money */
