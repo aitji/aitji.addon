@@ -1,0 +1,41 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§fPolice Caught §cThief §a1.19.80§r",
+		"description": "§fScript by §eAitJi Gamer§r",
+		"uuid": "56c2cb7a-16fd-4384-90b3-21072776c535",
+		"version": [2, 12, 0],
+		"min_engine_version": [1, 19, 0]
+	},
+	"metadata": {
+		"authors": ["InwAitJi"],
+		"url": "https://www.youtube.com/@InwAitJi"
+	},
+	"modules": [{
+			"type": "data",
+			"uuid": "1c5242a9-af96-415a-9d80-9412732b09e2",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"description": "§fScript by §eAitJi Gamer§r",
+			"language": "javascript",
+			"type": "script",
+			"uuid": "4bb0415c-c6ea-4aa3-8aef-66aafa58af2e",
+			"version": [0, 0, 1],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [{
+			"module_name": "@minecraft/server",
+			"version": "1.1.0-beta"
+		},
+        {
+			"module_name": "@minecraft/server-ui",
+			"version": "1.0.0-beta"
+		}
+	]
+}

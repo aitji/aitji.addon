@@ -1,0 +1,33 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Addon Name",
+		"description": "Addon Description",
+		"uuid": "⭐ Enter UUID Version 4 (1) ⭐",
+		"version": [0, 0, 1],
+		"min_engine_version": [1, 19, 0]
+	},
+	"modules": [{
+			"type": "data",
+			"uuid": "⭐ Enter UUID Version 4 (2) ⭐",
+			"version": [1, 0, 0]
+		},
+		{
+			"description": "Addon Description",
+			"language": "javascript",
+			"type": "script",
+			"uuid": "⭐ Enter UUID Version 4 (3) ⭐",
+			"version": [0, 0, 1],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [{
+			"module_name": "@minecraft/server",
+			"version": "1.1.0-beta"
+		},
+        {
+			"module_name": "@minecraft/server-ui",
+			"version": "1.0.0-beta"
+		}
+	]
+}
