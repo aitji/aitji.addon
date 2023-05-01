@@ -3,6 +3,7 @@ First Go to this website [Click Here.](https://www.npmjs.com/package/@minecraft/
 
 
 Using "Ctrl + F" and find "stable" look the first one copy it ex:
+- 1.2.0-beta.1.19.80-stable
 - 1.1.0-beta.1.19.70-stable
 - 1.1.0-beta.1.19.60-stable
 
@@ -10,6 +11,7 @@ Using "Ctrl + F" and find "stable" look the first one copy it ex:
 First Go to this website [Click Here.](https://www.npmjs.com/package/@minecraft/server-ui?activeTab=versions)
 
 Using "Ctrl + F" and find "stable" look the first one copy it ex:
+- 1.0.0-beta.1.19.80-stable
 - 1.0.0-beta.1.19.70-stable
 - 1.0.0-beta.1.19.60-stable
 
@@ -22,7 +24,7 @@ if it not correctly just change "manifest.json" like the number
 
 ###
 
-POV: Your copy "@minecraft/server" version is "1.1.0-beta.1.19.70-stable"
+POV: Your copy "@minecraft/server" version is "1.2.0-beta.1.19.80-stable"
 
 template:
 ```json
@@ -37,13 +39,13 @@ template:
 ]
 ```
 
-look at number and -beta "**1.1.0-beta**.1.19.70-stable"
+look at number and -beta "**1.2.0-beta**.1.19.70-stable"
 
-replace 1.0.0 to 1.1.0(or number that you copy`)
+replace 1.0.0 to 1.2.0(or number that you copy`)
 ```json
 "dependencies": [{
 		"module_name": "@minecraft/server",
-		"version": "1.1.0-beta"
+		"version": "1.2.0-beta"
 	},
     {
 		"module_name": "@minecraft/server-ui",
