@@ -1,5 +1,6 @@
-import { world } from "@minecraft/server"
+import { system, world } from "@minecraft/server";
 import { ActionFormData, ModalFormData } from "@minecraft/server-ui";
+system.events.beforeWatchdogTerminate.subscribe(data => data.cancel = true)
 import "./lang/ENG"
 import "./lang/TH"
 /** ---------------------------- */

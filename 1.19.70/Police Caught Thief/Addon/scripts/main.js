@@ -1,3 +1,6 @@
+import { system, world } from "@minecraft/server";
+system.events.beforeWatchdogTerminate.subscribe(data => data.cancel = true)
+
 import "./server/item"
 import "./officer/attack"
 import "./bandit/steal"
