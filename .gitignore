@@ -2,3 +2,5 @@ All Module
 **/node_modules/
 **/venv/
 **/env/
+package-lock.json
+package.json

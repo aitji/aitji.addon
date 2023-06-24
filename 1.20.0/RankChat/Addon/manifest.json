@@ -4,34 +4,54 @@
 		"name": "§aRank§fChat",
 		"description": "§fYouTube: §c@InwAitJi§r",
 		"uuid": "3045de52-01ac-40bb-90c7-885b499bb5d8",
-		"version": [0, 0, 1],
-		"min_engine_version": [1, 20, 0]
+		"version": [
+			0,
+			0,
+			1
+		],
+		"min_engine_version": [
+			1,
+			20,
+			0
+		]
 	},
 	"metadata": {
-		"authors": ["InwAitJi"],
+		"authors": [
+			"InwAitJi"
+		],
 		"url": "https://www.youtube.com/@InwAitJi"
 	},
-	"modules": [{
+	"modules": [
+		{
 			"type": "data",
 			"uuid": "f6ae0463-68f4-4214-a276-ca7462aa3faa",
-			"version": [1, 0, 0]
+			"version": [
+				1,
+				0,
+				0
+			]
 		},
 		{
 			"description": "§fScript by §eAitJi Gamer§r",
 			"language": "javascript",
 			"type": "script",
 			"uuid": "a8b351a2-48b5-4fc9-b436-735d661f16a2",
-			"version": [0, 0, 1],
+			"version": [
+				0,
+				0,
+				1
+			],
 			"entry": "scripts/main.js"
 		}
 	],
-	"dependencies": [{
+	"dependencies": [
+		{
 			"module_name": "@minecraft/server",
-			"version": "1.2.0-beta"
+			"version": "1.3.0-beta"
 		},
-        {
+		{
 			"module_name": "@minecraft/server-ui",
-			"version": "1.0.0-beta"
+			"version": "1.1.0-beta"
 		}
 	]
 }

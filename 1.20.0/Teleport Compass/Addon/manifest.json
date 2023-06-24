@@ -1,0 +1,41 @@
+{
+	"format_version": 2,
+	"header": {
+        "name": "§f[=--- §bItem Teleporter §a1.20 §f---=]§r",
+        "description": "§fThis §baddon§f Made by §bAitJi Gamer§r",
+		"uuid": "eee40c37-dc3b-402d-9158-cbd79feb34f4",
+		"version": [2, 12, 0],
+		"min_engine_version": [1, 19, 0]
+	},
+	"metadata": {
+		"authors": ["InwAitJi"],
+		"url": "https://www.youtube.com/@InwAitJi"
+	},
+	"modules": [{
+			"type": "data",
+			"uuid": "eee40c37-dc3b-402d-9158-cbd79feb34f4",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+            "description": "§fThis §baddon§f Made by §bAitJi Gamer§r",
+			"language": "javascript",
+			"type": "script",
+			"uuid": "673b1890-379e-4979-a726-24cede727c68",
+			"version": [0, 0, 1],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [{
+		"module_name": "@minecraft/server",
+		"version": "1.3.0-beta"
+	},
+	{
+		"module_name": "@minecraft/server-ui",
+		"version": "1.1.0-beta"
+	}
+]
+}
