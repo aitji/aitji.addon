@@ -1,0 +1,41 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§fROOM §cCHAT §fAddon",
+		"description": "§f§lแอดออน §cห้องแชท\n§fเขียนโดย §cAitJi Gamer§r",
+		"uuid": "d4507efd-4f5b-41ff-a2cf-d630c878a179",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 20, 0]
+	},
+	"metadata": {
+		"authors": ["InwAitJi"],
+		"url": "https://www.youtube.com/@InwAitJi"
+	},
+	"modules": [{
+			"type": "data",
+			"uuid": "2c442ec0-bc53-4175-9d2c-85f7c3c1d628",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"description": "§f§lแอดออน §cห้องแชท\n§fเขียนโดย §cAitJi Gamer§r",
+			"language": "javascript",
+			"type": "script",
+			"uuid": "5b18559a-a470-49a6-8da1-94c237ea7a7a",
+			"version": [0, 0, 1],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [{
+			"module_name": "@minecraft/server",
+			"version": "1.4.0-beta"
+		},
+        {
+			"module_name": "@minecraft/server-ui",
+			"version": "1.2.0-beta"
+		}
+	]
+}
