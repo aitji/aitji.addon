@@ -6,7 +6,7 @@ try {
 } catch (OvO) {
     world.getAllPlayers().map(pls =>pls.runCommandAsync(`scoreboard objectives add delay dummy`))
 }
-system.events.beforeWatchdogTerminate.subscribe(data => data.cancel = true)
+system.beforeEvents.watchdogTerminate.subscribe(data => data.cancel = true)
 /** --------------------------------------------- */
 function getFakePlayer(objectiveId) {
     return world.scoreboard

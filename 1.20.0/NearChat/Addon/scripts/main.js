@@ -1,7 +1,7 @@
 /** ________________________________________________________ */
 import { world, ScoreboardIdentity, ScoreboardIdentityType, system, Player } from "@minecraft/server"
 import { ActionFormData, ModalFormData, MessageFormData } from "@minecraft/server-ui"
-system.events.beforeWatchdogTerminate.subscribe((data) => data.cancel = true)
+system.beforeEvents.watchdogTerminate.subscribe((data) => data.cancel = true)
 world.sendMessage(`§l§8| §r§fDistance Chat Now §cReload!!`)
 /** ________________________________________________________ */
 function getScore(objective, target, useZero = true) {

@@ -1,0 +1,57 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§cBlood§f Addon!",
+		"description": "§fScript by §eAitJi Gamer§r\n§aVersion: 1.20.10",
+		"uuid": "c1f9af6a-040f-4127-9b04-cf7829a4eda1",
+		"version": [
+			1,
+			20,
+			10
+		],
+		"min_engine_version": [
+			1,
+			19,
+			0
+		]
+	},
+	"metadata": {
+		"authors": [
+			"InwAitJi"
+		],
+		"url": "https://www.youtube.com/@InwAitJi"
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "57b02db9-093a-4746-8691-bad1ec85ec35",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"description": "§fScript by §eAitJi Gamer§r",
+			"language": "javascript",
+			"type": "script",
+			"uuid": "f85f00fb-41d4-4c56-acab-bc0adeb900d6",
+			"version": [
+				0,
+				0,
+				1
+			],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.4.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.2.0-beta"
+		}
+	]
+}

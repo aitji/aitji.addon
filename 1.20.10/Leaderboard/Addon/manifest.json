@@ -1,0 +1,41 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§l§cLeaderboard §fกำหนดได้§r",
+		"description": "§fScript by §eAitJi Gamer\n§aVersion: 1.20.10",
+		"uuid": "b27bd934-a4b0-4fba-b4a8-6805192cad8d",
+		"version": [1, 20, 10],
+		"min_engine_version": [1, 19, 0]
+	},
+	"metadata": {
+		"authors": ["InwAitJi"],
+		"url": "https://www.youtube.com/@InwAitJi"
+	},
+	"modules": [{
+			"type": "data",
+			"uuid": "e86e2cd8-16ca-41ce-a910-32e085e1d71a",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"description": "§fScript by §eAitJi Gamer§r",
+			"language": "javascript",
+			"type": "script",
+			"uuid": "acb3c355-f147-409f-b800-12de37e602a7",
+			"version": [0, 0, 1],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [{
+		"module_name": "@minecraft/server",
+		"version": "1.3.0-beta"
+	},
+	{
+		"module_name": "@minecraft/server-ui",
+		"version": "1.1.0-beta"
+	}
+]
+}

@@ -1,12 +1,4 @@
 /** ________________________________________________________ */
-/** ------- Display -------  */
-// import "./Look/Chat";
-// import "./Look/Reload";
-import "./Look/NameTag";
-/** ------- Content -------  */
-import "./Content/SetLore";
-import "./Button/shop";
-import "./Content/clock";
 import { world, system, ScoreboardIdentityType } from "@minecraft/server";
 import { ModalFormData } from "@minecraft/server-ui";
 system.beforeEvents.watchdogTerminate.subscribe(data => data.cancel = true);

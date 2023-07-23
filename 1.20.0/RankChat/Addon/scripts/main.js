@@ -1,6 +1,6 @@
 import { ScoreboardIdentityType, system, world } from "@minecraft/server";
 import { ModalFormData } from "@minecraft/server-ui";
-system.events.beforeWatchdogTerminate.subscribe(data => data.cancel = true);
+system.beforeEvents.watchdogTerminate.subscribe(data => data.cancel = true);
 world.sendMessage(`§l§8| §r§fServer has been §cReloaded!!`)
 /** ________________________________________________________ */
 createScore("rankchat")

@@ -1,6 +1,6 @@
 import { ScoreboardIdentityType, world, system, ScoreboardIdentity } from "@minecraft/server";
 import { ModalFormData } from '@minecraft/server-ui'
-system.events.beforeWatchdogTerminate.subscribe(data => data.cancel = true)
+system.beforeEvents.watchdogTerminate.subscribe(data => data.cancel = true)
 try {
     world.getAllPlayers().map(pls => pls.runCommandAsync(`scoreboard objectives add chatsettings dummy`))
     world.getAllPlayers().map(pls => pls.runCommandAsync(`scoreboard objectives add delay dummy`))

@@ -2,8 +2,8 @@
 	"format_version": 2,
 	"header": {
 		"name": "§fROOM §cCHAT §fAddon",
-		"description": "§f§lแอดออน §cห้องแชท\n§fเขียนโดย §cAitJi Gamer§r",
-		"uuid": "d4507efd-4f5b-41ff-a2cf-d630c878a179",
+		"description": "§fเขียนโดย §cAitJi Gamer\n§aVersion: 1.20.10",
+		"uuid": "ff3e27c9-9beb-43cf-9e96-15a98b79c4f3",
 		"version": [1, 0, 0],
 		"min_engine_version": [1, 20, 0]
 	},
@@ -13,7 +13,7 @@
 	},
 	"modules": [{
 			"type": "data",
-			"uuid": "2c442ec0-bc53-4175-9d2c-85f7c3c1d628",
+			"uuid": "122ab242-335e-4142-b8c8-6e4c1d7eceaf",
 			"version": [
 				1,
 				0,
@@ -24,7 +24,7 @@
 			"description": "§f§lแอดออน §cห้องแชท\n§fเขียนโดย §cAitJi Gamer§r",
 			"language": "javascript",
 			"type": "script",
-			"uuid": "5b18559a-a470-49a6-8da1-94c237ea7a7a",
+			"uuid": "a87208ef-7879-4918-8be0-54b1a3234b76",
 			"version": [0, 0, 1],
 			"entry": "scripts/main.js"
 		}

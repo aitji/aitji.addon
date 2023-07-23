@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§fAnti §cSpam§r",
+		"description": "§fScript by §eAitJi Gamer§r\n1.20.10",
+		"uuid": "a0122e7e-0855-4e52-9bc5-b47871ac8584",
+		"version": [1, 20, 10],
+		"min_engine_version": [1, 19, 0]
+	},
+	"metadata": {
+		"authors": ["InwAitJi"],
+		"url": "https://www.youtube.com/@InwAitJi"
+	},
+	"modules": [{
+			"type": "data",
+			"uuid": "6bd4f29f-e21a-43cb-87ab-1fa5af4a3745",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"description": "§fScript by §eAitJi Gamer§r",
+			"language": "javascript",
+			"type": "script",
+			"uuid": "99a362dc-1333-452d-a03f-5b5cd3f532a1",
+			"version": [0, 0, 1],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [{
+		"module_name": "@minecraft/server",
+		"version": "1.4.0-beta"
+	},
+	{
+		"module_name": "@minecraft/server-ui",
+		"version": "1.2.0-beta"
+	}
+]
+}
+

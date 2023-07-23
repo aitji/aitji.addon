@@ -1,6 +1,6 @@
 import { ScoreboardIdentityType, world,system } from "@minecraft/server"
 import { ActionFormData, ModalFormData } from "@minecraft/server-ui"
-system.events.beforeWatchdogTerminate.subscribe(data => data.cancel = true)
+system.beforeEvents.watchdogTerminate.subscribe(data => data.cancel = true)
 const World = world
 try { world.getAllPlayers().map(pls => pls.runCommandAsync(`scoreboard objectives add setting dummy`)) } catch (e) { }
 /** ------------------------------------------- */
