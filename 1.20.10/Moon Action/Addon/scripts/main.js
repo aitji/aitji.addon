@@ -74,24 +74,7 @@ system.runInterval(() => {
         });
     });
 });
-/** ____________________________________________________ */
-function test(pl){
-    if(pl.name === "AitJi Gamer") return `§e${pl.name}`
-    else return `§f${pl.name}`
-}
-system.runInterval(() => {
-    world.sendMessage("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
-    world.getAllPlayers().filter(plr => plr.isClimbing).forEach(plr => world.sendMessage(`${test(plr)} isClimbing`)) 
-    world.getAllPlayers().filter(plr => plr.isFalling).forEach(plr => world.sendMessage(`${test(plr)} isFalling`)) 
-    world.getAllPlayers().filter(plr => plr.isFlying).forEach(plr => world.sendMessage(`${test(plr)} isFlying`)) 
-    world.getAllPlayers().filter(plr => plr.isGliding).forEach(plr => world.sendMessage(`${test(plr)} isGliding`))
-    world.getAllPlayers().filter(plr => plr.isInWater).forEach(plr => world.sendMessage(`${test(plr)} isInWater`))
-    world.getAllPlayers().filter(plr => plr.isJumping).forEach(plr => world.sendMessage(`${test(plr)} isJumping`))
-    world.getAllPlayers().filter(plr => plr.isOnGround).forEach(plr => world.sendMessage(`${test(plr)} isOnGround`))
-    world.getAllPlayers().filter(plr => plr.isSneaking).forEach(plr => world.sendMessage(`${test(plr)} isSneaking`))
-    world.getAllPlayers().filter(plr => plr.isSprinting).forEach(plr => world.sendMessage(`${test(plr)} isSprinting`))
-    world.getAllPlayers().filter(plr => plr.isSwimming).forEach(plr => world.sendMessage(`${test(plr)} isSwimming`))
-})
+/** ____________________________________________________ */
 /**
  * @param {Player} player 
  * @returns {Number}
