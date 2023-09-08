@@ -1,4 +1,4 @@
-import { Items, ItemStack, world } from "@minecraft/server";
+import { ItemStack, world } from "@minecraft/server";
 /** ------------------------------------------- */
 function getFakePlayer(objectiveId) {
     return world.scoreboard

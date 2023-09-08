@@ -1,4 +1,4 @@
-import { system, world, scoreboardIdentity } from "@minecraft/server";
+import { system, world } from "@minecraft/server";
 import { ModalFormData } from "@minecraft/server-ui"
 /** --------------[ UwU - InwAitJi ]-------------- */
 try {

@@ -1,4 +1,4 @@
-import { Items, ItemStack, world, system } from "@minecraft/server";
+import { ItemStack, world, system } from "@minecraft/server";
 /** ------------------------------------------- */
 function getScore(objective, target, useZero = true) {
     try {
