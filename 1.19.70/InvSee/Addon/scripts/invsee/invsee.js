@@ -8,19 +8,19 @@ export function invsee(message, args) {
 
     const player = message.sender;
 
-    if (args.length === 0) return player.SendMessage("§7You need to provide whos §finventory §7to view!§r");
+    if (args.length === 0) return player.endMessage("§7You need to provide whos §finventory §7to view!§r");
 
     for (const pl of World.getPlayers()) if (pl.name.toLowerCase().includes(args[0].toLowerCase().replace(/"|\\|@/g, ""))) {
         var member = pl;
         break;
     }
 
-    if (typeof member === "undefined") return player.SendMessage("§7Couldn't find that §fplayer.§r");
+    if (typeof member === "undefined") return player.endMessage("§7Couldn't find that §fplayer.§r");
 
     const container = member.getComponent('inventory').container;
 
     if (container.size === container.emptySlotsCount) {
-        player.SendMessage(`§r§f${member.name}'s§7 inventory is empty.§r`);
+        player.endMessage(`§r§f${member.name}'s§7 inventory is empty.§r`);
         return
     }
 
@@ -56,7 +56,7 @@ export function invsee(message, args) {
             loopIterator(item.getComponent("enchantments").enchantments[Symbol.iterator]());
         }
     }
-    player.SendMessage(`§r§c§l§ฟ*-*-*-*-*-*-*-*-*§r\n${inventory}§r§c§l§ฟ*-*-*-*-*-*-*-*-*§r`)
+    player.endMessage(`§r§c§l§ฟ*-*-*-*-*-*-*-*-*§r\n${inventory}§r§c§l§ฟ*-*-*-*-*-*-*-*-*§r`)
 }
 
 /**
