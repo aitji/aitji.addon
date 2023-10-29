@@ -1,0 +1,57 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "§c- AitJi Gamer §c - ",
+        "description": "§fServer Interface\n§aVersion: 1.20.40",
+        "uuid": "9bfb84a5-701f-4d41-9820-9509fc5d44fe",
+        "version": [
+            1,
+            20,
+            40
+        ],
+        "min_engine_version": [
+            1,
+            20,
+            10
+        ]
+    },
+    "metadata": {
+        "authors": [
+            "InwAitJi"
+        ],
+        "url": "https://www.youtube.com/@InwAitJi"
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "6b45f974-4cdd-4450-a88e-d59028de4193",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "description": "§fServer Interface\nThank for dowlaod §c:)",
+            "language": "javascript",
+            "type": "script",
+            "uuid": "45df2cd5-4168-4e26-b239-5af3ca276791",
+            "version": [
+                0,
+                0,
+                1
+            ],
+            "entry": "scripts/Main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.7.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0-beta"
+        }
+    ]
+}
