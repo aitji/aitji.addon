@@ -1,0 +1,41 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§bApply §l§fDASH§r",
+		"description": "§l§fขอบคุณที่โหลดมาใช้นะ :)\n§c@InwAitJi - YT\n§bver: §f1.20.50",
+		"uuid": "6bcd047b-14bf-4087-ac81-7f34ec221bcb",
+		"version": [1, 20, 40],
+		"min_engine_version": [1, 20, 10]
+	},
+	"metadata": {
+		"authors": ["InwAitJi"],
+		"url": "https://www.youtube.com/@InwAitJi"
+	},
+	"modules": [{
+			"type": "data",
+			"uuid": "06b7c295-2b34-4d90-95a8-9efaeb3c8080",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"description": "§l§fขอบคุณที่โหลดมาใช้นะ :)\n§c@InwAitJi - YT",
+			"language": "javascript",
+			"type": "script",
+			"uuid": "08eaf01f-93fa-406e-a639-35876f6f45ac",
+			"version": [0, 0, 1],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [{
+			"module_name": "@minecraft/server",
+			"version": "1.8.0-beta"
+		},
+        {
+			"module_name": "@minecraft/server-ui",
+			"version": "1.2.0-beta"
+		}
+	]
+}
