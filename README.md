@@ -7,7 +7,7 @@ Welcome to the Minecraft Bedrock GameTestAPI! This addon (script) was created wi
 - Give credit to my YouTube Channel (@InwAitJi) for creating the addon
 - Modify the addon for better efficiency (but please still give me credit)
 
-## What you can't do with this addon [-]
+## What you can't do with this addon [-] 
 - Claim that you made this addon/script yourself
 - Remove or change the credit in the "manifest.json" file
 
