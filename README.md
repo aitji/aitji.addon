@@ -10,7 +10,8 @@ Here is a [link](https://mcbe.vercel.app/addon/)
 
 it have a little bit api too!
 ```
-https://mcbe.vercel.app/download? version=addon_id
+https://mcbe.vercel.app/
+download?version=addon_id
 ```
 ### Version:
 please note all new addon didn't downgrading to old, please use **lastest**
