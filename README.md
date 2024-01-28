@@ -46,6 +46,7 @@ please note all new addon didn't downgrading to old, please use **lastest**
 - transfermoney
 - unbreak
 - votekick
+- ban
 
 ## What you can do with this addon [+]
 - Learn Javascript and see how it can be used in Minecraft
