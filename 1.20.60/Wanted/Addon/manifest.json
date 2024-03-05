@@ -1,0 +1,41 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "§l§cWanted §r§fSystem§r",
+        "description": "§f§fsimple wanted system by §cAitJi Gamer\n§aVersion: 1.20.60",
+        "uuid": "939da1bb-d6b0-4a4b-9de2-36db5f842c2a",
+        "version": [
+            1,
+            20,
+            60
+        ],
+        "min_engine_version": [
+            1,
+            20,
+            10
+        ]
+    },
+    "modules": [
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "518da58b-36fe-467a-a6a9-85dec4c40084",
+            "entry": "scripts/Main.js",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.9.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0-beta"
+        }
+    ]
+}

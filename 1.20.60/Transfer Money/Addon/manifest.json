@@ -1,0 +1,41 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "§l§f[ §r§5T§dr§1a§bn§as§ef§6e§4r §a1.20.60 §r§l§f]§r",
+        "description": "§f§lระบบ §eโอนเงิน §fให้ §eผู้เล่น §fคนอื่น!!\n§aVersion: 1.20.60",
+        "uuid": "5308662c-86b0-4d10-924e-da2025c4ae36",
+        "version": [
+            1,
+            20,
+            60
+        ],
+        "min_engine_version": [
+            1,
+            20,
+            10
+        ]
+    },
+    "modules": [
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "518da58b-36fe-467a-a6a9-85dec4c40084",
+            "entry": "scripts/Main.js",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.9.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0-beta"
+        }
+    ]
+}

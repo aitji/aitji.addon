@@ -1,0 +1,57 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§cRealtime §fIn Game",
+		"description": "§fScript by §eAitJi Gamer\n§aVersion: 1.20.60",
+		"uuid": "b697b5d8-fafc-49ed-9633-f8a3a3ae781f",
+		"version": [
+			1,
+			20,
+			40
+		],
+		"min_engine_version": [
+			1,
+			20,
+			10
+		]
+	},
+	"metadata": {
+		"authors": [
+			"InwAitJi"
+		],
+		"url": "https://www.youtube.com/@InwAitJi"
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "56ff26fa-a06a-40ff-8b38-28f5a91dd602",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"description": "",
+			"language": "javascript",
+			"type": "script",
+			"uuid": "19505db7-405e-4f22-8394-b0e5259e3581",
+			"version": [
+				0,
+				0,
+				1
+			],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.9.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.2.0-beta"
+		}
+	]
+}
