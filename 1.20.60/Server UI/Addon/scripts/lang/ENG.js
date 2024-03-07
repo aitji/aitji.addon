@@ -1,4 +1,4 @@
-import { world, scoreboardIdentity, system } from "@minecraft/server"
+import { world, system } from "@minecraft/server"
 import { ActionFormData, ModalFormData } from "@minecraft/server-ui";
 /** ------------------- */
 /** Settings Here */
@@ -19,17 +19,14 @@ function getScore(objective, target, useZero = true) {
 	}
 }
 /** ------------------- */
-try {
-	world.beforeEvents.itemUse.subscribe((data) => {
-		let pl = data.source
-		let item = data.itemStack
+world.beforeEvents.itemUse.subscribe((data) => {
+	let pl = data.source
+	let item = data.itemStack
 
-		if (item.id === "minecraft:clock" && pl.hasTag("eng")) {
-			menu(pl)
-		}
-	})
-} catch (e) {
-}
+	if (item.typeId === "minecraft:clock" && pl.hasTag("eng")) {
+		menu(pl)
+	}
+})
 /** ------------------- */
 function menu(pl) {
 	system.run(() => {

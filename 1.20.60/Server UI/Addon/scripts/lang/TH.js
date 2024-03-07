@@ -1,11 +1,11 @@
-import { world, scoreboardIdentity, system } from "@minecraft/server"
+import { world, system } from "@minecraft/server"
 import { ActionFormData, ModalFormData } from "@minecraft/server-ui";
 /** ------------------- */
 /** Settings Here */
-let money_scoreboard = "money"; /** ชื่อ สกอบอร์ด ของ เงิน */
-let bank_scoreboard = "bank"; /** ชื่อ สกอบอร์ด ของ เงินในธนาคาร */
+let money_scoreboard = "money"
+let bank_scoreboard = "bank"
 
-let movestep = 10; /** ใส่ก้าวในการเลื่อนจำนวนเช่น หากใส่ 10 จะเป็น 0 10 20 30 40.. | ใส่ 5 ก็จะเป็น 0 5 10 15 20 25.. */
+let movestep = 10
 /** ------------------- */
 function getScore(objective, target, useZero = true) {
 	try {
@@ -19,17 +19,14 @@ function getScore(objective, target, useZero = true) {
 	}
 }
 /** ------------------- */
-try {
-	world.beforeEvents.itemUse.subscribe((data) => {
-		let pl = data.source
-		let item = data.itemStack
+world.beforeEvents.itemUse.subscribe((data) => {
+	let pl = data.source
+	let item = data.itemStack
 
-		if (item.id === "minecraft:clock" && pl.hasTag("th")) {
-			menu(pl)
-		}
-	})
-} catch (e) {
-}
+	if (item.typeId === "minecraft:clock" && pl.hasTag("th")) {
+		menu(pl)
+	}
+})
 /** ------------------- */
 function menu(pl) {
 	system.run(() => {

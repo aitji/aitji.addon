@@ -4,16 +4,14 @@ system.beforeEvents.watchdogTerminate.subscribe(data => data.cancel = true)
 import "./lang/ENG"
 import "./lang/TH"
 /** ---------------------------- */
-try {
-	world.beforeEvents.itemUse.subscribe((data) => {
-		let pl = data.source
-		let item = data.itemStack
+world.beforeEvents.itemUse.subscribe((data) => {
+	let pl = data.source
+	let item = data.itemStack
 
-		if (item.id === "minecraft:clock" && !pl.hasTag("eng") && !pl.hasTag("th")) {
-			lang(pl)
-		}
-	})
-} catch (e) { }
+	if (item.typeId === "minecraft:clock" && !pl.hasTag("eng") && !pl.hasTag("th")) {
+		lang(pl)
+	}
+})
 /** ---------------------------- */
 function lang(pl) {
 	system.run(() => {
