@@ -1,0 +1,41 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§9Motion §fMoon",
+		"description": "§fScript by §eAitJi Gamer\n§7@stable",
+		"uuid": "c689132a-61b7-4ad2-90d1-5dd3ea3aae97",
+		"version": [0, 0, 1],
+		"min_engine_version": [0, 0, 1]
+	},
+	"metadata": {
+		"authors": ["InwAitJi"],
+		"url": "https://www.youtube.com/@InwAitJi"
+	},
+	"modules": [{
+			"type": "data",
+			"uuid": "1b9de3eb-8749-41cb-bc15-b9da16f50017",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"description": "§fScript by §eAitJi Gamer§r",
+			"language": "javascript",
+			"type": "script",
+			"uuid": "8aa56edf-5302-469f-93ad-49cbd595506a",
+			"version": [0, 0, 1],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [{
+			"module_name": "@minecraft/server",
+			"version": "1.9.0"
+		},
+        {
+			"module_name": "@minecraft/server-ui",
+			"version": "1.1.0"
+		}
+	]
+}
