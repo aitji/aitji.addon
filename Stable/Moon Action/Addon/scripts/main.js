@@ -110,7 +110,7 @@ function isHost(player) {
  * @param {Player} player
  * @returns {Boolean}
  */
-function isMoving(pl) {
+function isMoving(pl, move_num = 0) {
     if (!(pl instanceof Player) && !(pl instanceof Entity)) throw new TypeError('§fParameter is not §cEntity or Player??§r');
     else return pl.isGliding || pl.isJumping || pl.isSprinting || pl.getVelocity().x > move_num || pl.getVelocity().x < move_num || pl.getVelocity().y > move_num || pl.getVelocity().y < move_num || pl.getVelocity().z > move_num || pl.getVelocity().z < move_num
 }
