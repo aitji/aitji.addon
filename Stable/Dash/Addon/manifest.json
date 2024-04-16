@@ -1,11 +1,11 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "§bApply §l§fDASH§r",
-		"description": "§l§fขอบคุณที่โหลดมาใช้นะ :)\n§c@InwAitJi - YT\n§bver: §f1.20.70",
+		"name": "§bApply §l§fDASH§r §7@STABLE",
+		"description": "§l§fขอบคุณที่โหลดมาใช้นะ :)\n§c@InwAitJi - YT",
 		"uuid": "6bcd047b-14bf-4087-ac81-7f34ec221bcb",
 		"version": [1, 20, 60],
-		"min_engine_version": [1, 20, 10]
+		"min_engine_version": [1, 19, 0]
 	},
 	"metadata": {
 		"authors": ["InwAitJi"],

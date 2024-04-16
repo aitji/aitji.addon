@@ -5,7 +5,7 @@
         "description": "§fThis §baddon§f Made by §bAitJi Gamer\n§7@stable",
 		"uuid": "a9baff63-6f2e-44b1-869d-5da23cf44edc",
 		"version": [0, 0, 1],
-		"min_engine_version": [0, 0, 1]
+		"min_engine_version": [1,19,0]
 	},
 	"metadata": {
 		"authors": ["InwAitJi"],

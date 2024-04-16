@@ -5,7 +5,7 @@
         "description": "§7@stable version",
         "uuid": "014a133a-e055-4df5-8d77-20541f9d61d6",
         "version": [0, 0, 1],
-        "min_engine_version": [0, 0, 1]
+        "min_engine_version": [1,19,0]
     },
     "modules": [
         {

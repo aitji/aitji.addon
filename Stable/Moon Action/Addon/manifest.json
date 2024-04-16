@@ -5,7 +5,7 @@
 		"description": "§fScript by §eAitJi Gamer\n§7@stable",
 		"uuid": "c689132a-61b7-4ad2-90d1-5dd3ea3aae97",
 		"version": [0, 0, 1],
-		"min_engine_version": [0, 0, 1]
+		"min_engine_version": [1,19,0]
 	},
 	"metadata": {
 		"authors": ["InwAitJi"],
