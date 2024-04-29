@@ -1,0 +1,41 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "§l§cVote §r§fKicker§r",
+        "description": "§f§fVote to kick a player by §cAitJi Gamer\n§aVersion: 1.20.80",
+        "uuid": "f9a45ef4-3369-4ff5-affc-04a7f8ce163b",
+        "version": [
+            1,
+            20,
+            80
+        ],
+        "min_engine_version": [
+            1,
+            20,
+            10
+        ]
+    },
+    "modules": [
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "518da58b-36fe-467a-a6a9-85dec4c40084",
+            "entry": "scripts/Main.js",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.11.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0-beta"
+        }
+    ]
+}

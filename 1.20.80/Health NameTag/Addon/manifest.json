@@ -1,0 +1,41 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§cHealth §fNameTag (§c1.20.80§f)§r",
+		"description": "§fScript by §eAitJi Gamer§r",
+		"uuid": "dbc42d90-833a-4112-85a4-bd00f4bf6862",
+		"version": [1, 20, 80],
+		"min_engine_version": [1, 19, 0]
+	},
+	"metadata": {
+		"authors": ["aitji."],
+		"url": "https://www.youtube.com/@aitji."
+	},
+	"modules": [{
+			"type": "data",
+			"uuid": "da633938-bd65-468e-afe7-a1f31fe82f86",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"description": "§fScript by §eAitJi Gamer§r",
+			"language": "javascript",
+			"type": "script",
+			"uuid": "7940ef28-817a-421b-88da-f1323bafb035",
+			"version": [0, 0, 1],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [{
+			"module_name": "@minecraft/server",
+			"version": "1.11.0-beta"
+		},
+        {
+			"module_name": "@minecraft/server-ui",
+			"version": "1.2.0-beta"
+		}
+	]
+}
