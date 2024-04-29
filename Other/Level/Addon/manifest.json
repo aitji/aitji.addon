@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "(@aitji) Level System",
+		"description": "ระบบอัพเลเวลขั้นพื้นฐาน\nโดย @aitji.",
+		"uuid": "98f0e60f-ba78-46f5-91a7-6bf635cb574e",
+		"version": [0, 0, 1],
+		"min_engine_version": [1, 19, 0]
+	},
+	"metadata": {
+		"authors": ["aitji"],
+		"url": "https://www.youtube.com/@aitji."
+	},
+	"modules": [{
+			"type": "data",
+			"uuid": "c7a53b4a-4104-4312-87c9-0fd815987393",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}
