@@ -1,52 +1,7 @@
 # Minecraft Bedrock GameTestAPI
 Welcome to the Minecraft Bedrock GameTestAPI! This addon (script) was created with love(UwU) by me and is available for you to download and use. Here's everything you need to know:
 
-## UPDATE! (API & WEBSITE)
-This repository have a website too!
-
-My website is a private script, don't tried to cracking!
-
-Here is a [link](https://mcbe.vercel.app/addon/)
-
-it have a little bit api too!
-```
-https://mcbe.vercel.app/
-download?version=addon_id
-```
-### Version:
-please note all new addon didn't downgrading to old, please use **lastest**
-- lastest **VERY RECOMMEND**
-- 1.20.50
-- 1.20.40
-- 1.20.30
-- 1.20.10
-- 1.20.0
-- 1.19.80
-- 1.19.70
-- 1.19.30
-
-### Addon Id
-- allchat
-- antispam
-- blood_addon
-- blood_res
-- dash
-- healthametag
-- invSee
-- leaderboard
-- moonaction
-- nametag
-- nearchat
-- policecaughtthief
-- rankchat
-- realtime
-- roomchat
-- serverui
-- teleportcompass
-- transfermoney
-- unbreak
-- votekick
-- ban
+I highly recommend using [my website](https://mcbe.vercel.app/new) to download addon!
 
 ## What you can do with this addon [+]
 - Learn Javascript and see how it can be used in Minecraft
