@@ -14,24 +14,11 @@ I highly recommend using [my website](https://mcbe.vercel.app/new) to download a
 - Remove or change the credit in the "manifest.json" file
 
 ## Follow me on social media!
-- Github: [lnwAitJi](https://github.com/lnwAitJi)
-- YouTube: [AitJi Gamer](https://www.youtube.com/@InwAitJi)
-- Xbox: [AitJi Gamer](https://youtu.be/xvFZjo5PgG0)
-- Omelet: [inwaitji](https://omlet.gg/profile/inw_aitji)
-- Discord: ! AitJi Gamer !#4753
+- Github: [aitji](https://github.com/aitji)
+- YouTube: [aitji.](https://www.youtube.com/@aitji.)
+- Discord: aitji
 
 ## How to download the addon
-Don't worry, it's easy! Just check out my video tutorial on YouTube [HERE](https://youtu.be/sgFoySz1c08) or "https://youtu.be/sgFoySz1c08" It'll guide you through the entire process step by step.
+Don't worry, it's easy! Just check out [my website](https://mcbe.vercel.app/new), if you can't read thai you may use translate (sorry!)
 
-Thank you for downloading my addon and I hope you enjoy using it! If you have any questions or feedback, feel free to reach out to me on any of my social media platforms.
-
-## FunFacts
-- This repository name "Minecraft" is typo (lol mojang will truly hate me)
-- Some meesage on this usage ChatGPT to write (i didn't English well)
-- This repository made by Thai People :^
-- I hate my old code really much because it really use waste *if else* hard code and code really cluttered.
-
-## Credit
-This is credit that i **stole(jk)** some code :^
-
-- @lnwAitJi Write All(most) Script!
+the addon will be gride can choose.
